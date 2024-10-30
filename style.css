@@ -1,0 +1,28 @@
+.location-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.location {
+  border-color: rgb(98, 98, 98);
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.placeholder {
+  aspect-ratio: 16/9;
+  background-color: aquamarine;
+}
+
+.bg-lake {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Chiesetta_Santa_Sofia_alla_Ferrara_-_Savignano_Irpino.jpeg/1200px-Chiesetta_Santa_Sofia_alla_Ferrara_-_Savignano_Irpino.jpeg");
+  background-size: cover;
+}
+
+.bg-cagliari {
+  background: url("https://www.cagliarimag.com/wp-content/uploads/2023/07/mare-sardegna.jpg");
+  background-size: cover;
+}
